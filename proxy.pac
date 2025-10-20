@@ -1,4 +1,4 @@
 function FindProxyForURL(url, host) {
-  if (isPlainHostName(host)) { return "DIRECT"; }
-  return "PROXY 142.111.48.253:7030; DIRECT";
+    // Use this proxy for all requests
+    return "PROXY vqmvdmrn:d6lmz4uenz2w@142.111.48.253:7030";
 }
